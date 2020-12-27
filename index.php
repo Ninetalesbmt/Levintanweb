@@ -22,7 +22,7 @@ and open the template in the editor.
 <?php
 $title = "Home";
 
-$content = '<img src="levintanImages/potral1.jpg" class="imgLeft" />
+$content = '<img src="./levintanImages/potral1.jpg" class="imgLeft" />
 <h3> tiểu sử </h3>
 <p>
     Isaac Levitan sinh năm 1860 trong một gia đình gốc Do Thái nghèo nhưng có học thức ở thị trấn Kibarty, tỉnh Kovno (nay là Kaunas, Litva). Năm Levitan lên 10 thì cả gia đình chuyển về Moskva.
@@ -30,7 +30,7 @@ $content = '<img src="levintanImages/potral1.jpg" class="imgLeft" />
     Tháng 9 năm 1873, Isaac Levitan thi đỗ vào Trường hội họa, điêu khắc và kiến trúc Moskva nơi anh trai của ông, Avel, cũng đã theo học được hai năm. Ở trong trường, Levitan được học các họa sĩ phong cảnh nổi tiếng của Nga lúc bấy giờ là A. K. Savrasov, V. G. Perov và V. D. Polenov. Levitan học rất giỏi và được nhận học bổng của trường. Tuy vậy khi học được hai năm thì mẹ của Isaac mất, cha ông thì lâm bệnh nặng và không thể tiếp tục hỗ trợ bốn anh chị em Levitan học tập chỉ nhờ vào mỗi tiền công từ việc dạy thêm do ông đã phải nghỉ công việc trong ngành đường sắt, sau đó ông cũng mất năm 1877 vì bệnh thương hàn. Cả gia đình Levitan lâm vào cảnh nghèo túng, bản thân Isaac Levitan thường xuyên phải nhịn đói hoặc ngủ lại trường nhưng nhờ có sự hỗ trợ của các giáo sư vốn yêu quý tài năng của Levitan, ông mới có thể tiếp tục việc học tập. Do cuộc sống thiếu thốn và việc học tập vất vả, sức khỏe và tinh thần của Levitan đã bắt đầu giảm sút ngay từ những năm này. Ông tốt nghiệp năm 1885
 </p>
 
-<img src="levintanImages/potral2.jpg" class="imgRight"/>
+<img src="./levintanImages/potral2.jpg" class="imgRight"/>
 <h3> Sự nghiệp </h3>
 <p>
     Tháng 3 năm 1877, hai tác phẩm đầu tiên của Isaac Levitan được triển lãm và được báo chí đánh giá cao. Sau vụ mưu sát của Aleksandr Soloviev nhằm vào Nga hoàng Aleksandr II (1818 – 1881) tháng 5 năm 1879, lệnh trục xuất hàng loạt người Do Thái ra khỏi các thành phố lớn của Đế quốc Nga buộc gia đình ông phải chuyển đến vùng ngoại ô Saltykovka nhưng vào mùa thu các quan chức chính quyền dưới áp lực của những người hâm mộ nghệ thuật đã cho phép ông quay trở lại Moskva.
@@ -48,7 +48,7 @@ $content = '<img src="levintanImages/potral1.jpg" class="imgLeft" />
     Isaac Levitan ban đầu được chôn ở nghĩa trang của người Do Thái ở Dorogomilovo, nhưng sau đó ông được cải táng về nghĩa trang nổi tiếng ở Moskva, Nghĩa trang Novodevichy, mộ của ông nằm kế bên mộ của người bạn thân Chekhov. Ngoài những người bạn và đồng nghiệp, Levitan chưa bao giờ lập gia đình hay có con.
 </p>
 
-<img src="levintanImages/potral3.jpg" class="imgRight"/>
+<img src="./levintanImages/potral3.jpg" class="imgRight"/>
 <h3> Tác phẩm tiêu biểu </h3>
 <p>
     Ngày thu. Sokolniki (Осенний день. Сокольники, 1879) <br>
