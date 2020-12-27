@@ -1,0 +1,49 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.1
+-- http://www.phpmyadmin.net
+--
+-- Machine: localhost
+-- Genereertijd: 04 mrt 2013 om 19:05
+-- Serverversie: 5.5.24-log
+-- PHP-versie: 5.3.13
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Databank: `levintandb`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `levintan`
+--
+
+CREATE TABLE IF NOT EXISTS `levintan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `type` varchar(255) DEFAULT NULL,
+  `year` double DEFAULT NULL,
+  `country` varchar(255) DEFAULT NULL,
+  `image` varchar(255) DEFAULT NULL,
+  `review` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Gegevens worden uitgevoerd voor tabel `coffee`
+--
+
+INSERT INTO `levintan` (`id`, `name`, `type`, `year`, `country`, `image`, `review`) VALUES
+(1, 'Over eternal peace', 'landscape', 1894, 'Russia', 'levintanImages/levintan/Over_Eternal_Peace.jpg', 'Probably the most famous Levitans painting, Over Eternal Peace is his most atypical one: his other landscapes make compatriots heart ache, while this one is breathtaking. This is not a lyrical landscape, for which Levitan is so famous, but rather a dramatic epic, where the past meets the future, the sky threatens the earth, and time tends to eternity.');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
